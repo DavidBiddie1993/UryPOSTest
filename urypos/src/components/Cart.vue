@@ -3,7 +3,7 @@
     <div class="flex-grow">
       <orderInfo />
     </div>
-    <div class="float-right rounded" v-if="this.menu.cart.length > 0">
+    <div  class="rounded px-4 py-2 bg-red-500 text-white shadow hover:bg-red-700">
       <button
         class="mr-4 rounded px-4 py-2 shadow"
         v-if="this.invoiceData.showUpdateButtton === true"
