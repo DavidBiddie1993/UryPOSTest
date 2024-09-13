@@ -9,7 +9,7 @@
         v-if="this.invoiceData.showUpdateButtton === true"
         @click="this.invoiceData.invoiceCreation()"
       >
-        Update
+        Updates this invoice
       </button>
       <!-- <button
       class="mr-4 rounded py-2 px-4 shadow"
